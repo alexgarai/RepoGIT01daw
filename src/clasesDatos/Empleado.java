@@ -48,6 +48,77 @@ public class Empleado {
 		this.sueldo = (float) 0.0;
 		
 	}
+
+	/////////////////////////////// GETers y SETers /////////////////////
+
+	public String getDni() {
+		return dni;
+	}
+
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+
+	public String getNombre() {
+		return nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+
+	public String getApellidos() {
+		return apellidos;
+	}
+
+
+	public void setApellidos(String apellidos) {
+		this.apellidos = apellidos;
+	}
+
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+
+	public int getEdad() {
+		return edad;
+	}
+
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+
+	public boolean isClubSocial() {
+		return clubSocial;
+	}
+
+
+	public void setClubSocial(boolean clubSocial) {
+		this.clubSocial = clubSocial;
+	}
+
+
+	public float getSueldo() {
+		return sueldo;
+	}
+
+
+	public void setSueldo(float sueldo) {
+		this.sueldo = sueldo;
+	}
 	
 
 
