@@ -2,6 +2,9 @@
 # Clases compiladas
 *.class
 
+# Clases de Test
+*Test.java
+
 # Carpeta con binarios
 bin/
 
